@@ -1,0 +1,14 @@
+#请务必保存为UTF-8格式
+spring:
+ profiles:
+  active: dev
+---
+spring:
+ profiles: dev     #开发环境
+ application:
+  name: rumospringcloudservice-config-user-dev
+---
+spring:
+ profiles: test     #测试环境
+ application:
+  name: rumospringcloudservice-config-user-teste
